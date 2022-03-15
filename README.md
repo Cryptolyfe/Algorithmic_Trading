@@ -53,8 +53,8 @@ We built the neural network for each asset this time changing LSTM, changing inp
 
 ![krbylogo](algotrading/images/algo1.png)
 ![krbylogo](algotrading/images/algo2.png)
-![krbylogo](algotrading/images/algodone.png)
-
+![krbylogo](algotrading/images/algofinal.png)
+![krbylogo](algotrading/images/algoclose.png)
 
 In the future, to further improve the model we could tune the model in a research notebook:
 
