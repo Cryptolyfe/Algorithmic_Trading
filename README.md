@@ -39,6 +39,8 @@ We then trained the models.
 
 We created a new trade function based on the source code provided to predict the price using the trained model and out-of-sample data.
 
+![krbylogo](algotrading/images/algonewtrade.png)
+
 Enter or exit positions are based on the relationship of the open price of the current bar (minutely) and the prices defined by the machine learning model.
 
 Our algo enters a position if it doesn't have the position and if the current price breaks the deep learning model's predicited trend (plus 1 standard deviation).
@@ -46,6 +48,8 @@ Our algo enters a position if it doesn't have the position and if the current pr
 Our model liquidates if it has a position and the current price drops below the deep learning model's predicited trend(-1 standard deviation).
 
 We created a window_data function that accepts the column number for the features (X) and the target (y).
+
+![krbylogo](algotrading/images/algowindow.png)
 
 It chunks the data up with a rolling window of Xt and a window to predict yt.
 
