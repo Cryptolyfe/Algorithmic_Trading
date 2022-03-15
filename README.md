@@ -49,7 +49,7 @@ Our model liquidates if it has a position and the current price drops below the 
 
 We created a window_data function that accepts the column number for the features (X) and the target (y).
 
-![krbylogo](algotrading/images/algowindow.png)
+![krbylogo](algotrading/images/windowdata.png)
 
 It chunks the data up with a rolling window of Xt and a window to predict yt.
 
