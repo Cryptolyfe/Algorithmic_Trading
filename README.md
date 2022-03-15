@@ -21,12 +21,17 @@ Attributes used for this are as follows:
 self.lookback - trains the model based off of the past n days
 self.modelBySymbol - a dictionary of models accessible by a symbol
 self.window - the number of previous data points used to forecast a prediction
+
+![krbylogo](algotrading/images/algocode1.png)
   
 Then we defined the initialize function with Start Date, Set type of account, Window, ModelbySymbol and Lookback for BTC and ETH.
 
 After this we set the Benchmark (BTCUSD) and trained the model the first time with our NeuralNetworkTraining_new function.
 
 Following this we set the Neural network to train every Monday and scheduled it to trade 30 minutes after markets open in North America, Europe and Asia respectively.
+
+![krbylogo](algotrading/images/algocode2.png)
+
 
 We used daily historical data to train our machine learning model and built a neural network from 1st to last layer using the LSTM model.
 
