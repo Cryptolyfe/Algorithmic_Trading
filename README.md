@@ -1,5 +1,5 @@
-# Crypto-Algorithm-Project
-Project 2
+# Algorithmic Trading
+
 ## Description
 We created an algorithmic trading bot to predict the future price of Bitcoin and Ethereum using back data.  We used machine learning models to test the back data and risk/performance.  We used QuantConnect to create our algorithm. 
 
