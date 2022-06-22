@@ -60,6 +60,7 @@ We converted the window data to tensors.
 We built the neural network for each asset this time changing LSTM, changing input_dim to input_shape, and giving it the correct shape.
 
 <br>
+
 ![krbylogo](algotrading/images/algo1.png)
 ![krbylogo](algotrading/images/algo2.png)
 ![krbylogo](algotrading/images/algofinal.png)
